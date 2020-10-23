@@ -1,0 +1,89 @@
+body {
+    color: black;
+    background-color: #f1f1f1;
+}
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+main {
+    background-color: white;
+    padding: 15px;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16);
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.16);
+    margin-bottom: 20px;
+}
+
+nav {
+    padding-left: 15px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.other-links li {
+    margin-left: -38px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.other-links li i {
+    margin-right: 5px;
+}
+
+nav ul {
+    margin-left: -38px;
+}
+
+.inactive-link {
+    color: #3e3e3ea6;
+}
+
+.active-link {
+    color: linear-gradient(90deg, rgba(114,144,223,1) 0%, rgba(59,94,186,1) 98%);
+}
+
+nav a {
+    cursor: pointer;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+.text-blue {
+    color: #1e88e5;
+}
+
+h2 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-left: 15px;
+}
+
+h1 a {
+    color: black;
+}
+
+h1 a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+h1 img {
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.row {
+    width: 100%;
+}
