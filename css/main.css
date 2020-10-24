@@ -106,6 +106,7 @@ h1 img {
     width: 100%;
     border-radius: 5px;
     margin-top: 8px;
+    margin-bottom: 3px;
 }
 
 .blue-highlight {
@@ -116,4 +117,8 @@ h1 img {
     padding-right: 5px;
     padding-top: 2px;
     padding-bottom: 2px;
+}
+
+.modal b {
+    font-size: 17px;
 }
