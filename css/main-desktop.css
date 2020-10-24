@@ -66,7 +66,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-#work-experience-main h2 {
+h6 {
+    margin-bottom: 1rem;
+}
+
+#work-experience-main h2, #education-main h2, #skills-main h2, #certificates-main h2 {
     margin-top: 0px;
 }
 

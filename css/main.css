@@ -70,7 +70,11 @@ h2 {
     margin-bottom: 10px;
 }
 
-#work-experience-main h2 {
+h6 {
+    margin-bottom: 1rem;
+}
+
+#work-experience-main h2, #education-main h2, #skills-main h2, #certificates-main h2 {
     margin-top: 0px;
 }
 
@@ -94,6 +98,14 @@ h1 img {
 
 .row {
     width: 100%;
+}
+
+.active-link-indicator {
+    height: 5px;
+    background: linear-gradient(90deg, rgba(114,144,223,1) 0%, rgba(59,94,186,1) 98%);
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 8px;
 }
 
 .blue-highlight {
