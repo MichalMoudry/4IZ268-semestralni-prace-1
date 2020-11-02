@@ -127,3 +127,11 @@ h1 img {
 .edu-print-info {
     display: block;
 }
+
+.view-cert-button {
+    display: none;
+}
+
+.cert-viewer {
+    display: block;
+}

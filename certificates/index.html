@@ -10,16 +10,19 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="./js/main.js"></script>
     <link rel="stylesheet" href="./css/main-desktop.css" media="screen and (min-width: 992px)" />
     <link rel="stylesheet" href="./css/main.css" media="screen and (max-width: 992px)" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
     <!--
         Github pages:
+        <script src="./js/main.js"></script>
         <link rel="stylesheet" href="./css/main-desktop.css" media="screen and (min-width: 992px)" />
         <link rel="stylesheet" href="./css/main.css" media="screen and (max-width: 992px)" />
         <link rel="stylesheet" href="./css/print.css" media="print" />
 
         Local env:
+        <script src="../js/main.js"></script>
         <link rel="stylesheet" href="../css/main-desktop.css" media="screen and (min-width: 992px)" />
         <link rel="stylesheet" href="../css/main.css" media="screen and (max-width: 992px)" />
         <link rel="stylesheet" href="../css/print.css" media="print" />
@@ -67,22 +70,20 @@
             <h5>IoT (Internet of Things) Wireless & Cloud Computing Emerging Technologies</h5>
             <p>June 30, 2020</p>
             <p>An online non-credit course authorized by Yonsei University and offered through Coursera</p>
-            <a href="./assets/iot-cert.pdf" title="View certificate document" target="_blank">
-                <button type="button" class="btn btn-outline-primary">
-                    View document <i class="fa fa-external-link ml-2"></i>
-                </button>
-            </a>
+            <button type="button" class="btn btn-outline-primary view-cert-button" onclick="navigate('./assets/iot-cert.pdf');">
+                View document <i class="fa fa-external-link ml-2"></i>
+            </button>
+            <iframe class="cert-viewer" src="./assets/iot-cert.pdf"></iframe>
 
             <hr />
 
             <h5>Predicting Salaries with Simple Linear Regression in R</h5>
             <p>June 22, 2020</p>
             <p>An online non-credit course authorized by Coursera Project Networkand offered through Coursera.</p>
-            <a href="./assets/reg-cert.pdf" title="View certificate document" target="_blank">
-                <button type="button" class="btn btn-outline-primary">
-                    View document <i class="fa fa-external-link ml-2"></i>
-                </button>
-            </a>
+            <button type="button" class="btn btn-outline-primary view-cert-button" onclick="navigate('./assets/reg-cert.pdf');">
+                View document <i class="fa fa-external-link ml-2"></i>
+            </button>
+            <iframe class="cert-viewer" src="./assets/reg-cert.pdf"></iframe>
 
             <hr />
 
