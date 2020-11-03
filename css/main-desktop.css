@@ -5,9 +5,12 @@ body {
 
 .main {
     width: 60%;
-    max-width: 60%;
     margin: 0 auto;
     padding-top: 35px;
+}
+
+#work-main, #edu-main {
+    max-width: 59.093%;
 }
 
 main {
