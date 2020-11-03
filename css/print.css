@@ -137,3 +137,7 @@ h1 img {
     color: linear-gradient(90deg, rgba(114,144,223,1) 0%, rgba(59,94,186,1) 98%);
     text-decoration: underline;
 }
+
+#sps-h5 {
+    page-break-before: always;
+}
