@@ -4,13 +4,9 @@ body {
 }
 
 .main {
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
     padding-top: 35px;
-}
-
-#work-main, #edu-main {
-    max-width: 59.093%;
 }
 
 main {
