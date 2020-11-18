@@ -10,3 +10,7 @@ nav li {
 .row {
     width: 100%;
 }
+
+.active-link-indicator {
+    margin-bottom: 8px;
+}
